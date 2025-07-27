@@ -1,0 +1,24 @@
+# 기본 제외
+node_modules/
+.next/
+dist/
+
+# 환경파일
+.env
+
+# 시스템/에디터 관련
+.DS_Store
+.vscode/
+*.log
+
+# Vercel 설정 (로컬용)
+.vercel/
+
+# 캐시 및 빌드 도구 관련
+.cache/
+out/
+coverage/
+
+# 혹시 모를 커스텀 리소스
+public/assets/videos/
+public/heavy/
